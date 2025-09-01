@@ -1,4 +1,4 @@
-function(myproject_check_libfuzzer_support var_name)
+function(plugin_wizard_check_libfuzzer_support var_name)
   set(LibFuzzerTestSource
       "
 #include <cstdint>
